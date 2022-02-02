@@ -1,6 +1,6 @@
 // import { useState, useEffect } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Title from "./components/Title";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -12,15 +12,9 @@ function App() {
   // }, []);
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Switch>
-          <Route path="/">
-            <h1>AGAVES FOR SALE</h1>
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
