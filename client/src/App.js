@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Switch, Route} from 'react-router-dom';
-import "./App.css"
+// import "./App.css"
 
 import Welcome from "./components/Welcome";
 // import Header from "./components/Header";
