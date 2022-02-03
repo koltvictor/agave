@@ -38,18 +38,22 @@
 }
 
 body {
-  background-color: #e27b1b;
+  background-color: #1b92e2;
 }
 
 
 .welcome {
-  background-color: #e27b1b;
   text-align: center;
   font-size: 4vh;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 20rem;
 }
+.welcome:active { color: #61dafb; }
+
+.welcome:link { color: #111755; }
+
+.welcome:visited { color: #fb9e61; }
 
 .headerWrapper {
   text-align: center;
