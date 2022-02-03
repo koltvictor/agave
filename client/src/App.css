@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+.welcome {
+  background-color: #e27b1b;
+  text-align: center;
+  font-size: 4vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 20rem;
+}
+
+.headerWrapper {
+  text-align: center;
+}
+
+.nav {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
