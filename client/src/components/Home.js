@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1>HELLO HOME!</h1>
+      <h1 className="navHeader">HELLO and WELCOME!</h1>
+      <p>So how does this work?</p>
     </div>
   );
 }

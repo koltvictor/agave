@@ -19,9 +19,9 @@ body {
 .welcomeHead {
   font-size: 4vh;
   font-weight: bold;
-  padding: 20rem;
+  padding-top: 20rem;
   text-align: center;
-  color: yellow;
+  color: rgba(255, 255, 0);
   font-family: Sans-Serif;
   text-shadow: 0 5px black;
 }
@@ -40,9 +40,14 @@ body {
 
 .nav {
   text-align: center;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(255, 251, 0, .6);
   font-size: 1vh;
   font-family: sans-serif;
+}
+
+.navHeader {
+  text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 .home{

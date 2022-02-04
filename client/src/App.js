@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Switch, Route} from 'react-router-dom';
 
+import Image1  from './components/agave.png'
 import Welcome from "./components/Welcome";
 // import Header from "./components/Header";
 import Home from "./components/Home";
@@ -22,7 +23,8 @@ function App() {
   return (
     <Router>
       <Route exact path="/">
-        <Welcome />
+        <Welcome 
+        Image1 = {Image1}/>
       </Route>
       {/* <Header /> */}
       <Switch>
