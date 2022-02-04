@@ -5,10 +5,10 @@ export default function Header() {
         <div className="headerWrapper">
             <h1 className="headerTitle">Natural Art</h1>
             <div className="nav">
-                <Link to="/home">Home</Link>
-                <Link to="/products">Agaves</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/home" className="home">Home</Link>
+                <Link to="/products" className="agaves">Agaves</Link>
+                <Link to="/about" className="about">About</Link>
+                <Link to="/contact" className="contact">Contact</Link>
             </div>
         </div>
     )

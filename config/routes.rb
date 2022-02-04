@@ -6,7 +6,6 @@ Rails.application.routes.draw do
     resources :products
     resources :users
  
-
   end
 
   get '/hello', to: 'application#hello_world'

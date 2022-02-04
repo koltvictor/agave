@@ -1,20 +1,20 @@
 body {
-  background-color: #1b92e2;
+  background-image: url('./stucco-1920x1080.png');
 }
 
 .welcome {
   text-align: center;
+  display: block;
   font-size: 4vh;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20rem;
 }
 
-.welcome:active { color: #61dafb; }
+.welcome:active { color: #61dafb; text-shadow: 0 10px black; }
 
 .welcome:link { color: #111755; }
 
-.welcome:visited { color: #fb9e61; }
+.welcome:visited { color: #e48e55; }
 
 .welcomeHead {
   font-size: 4vh;
@@ -23,12 +23,11 @@ body {
   text-align: center;
   color: yellow;
   font-family: Sans-Serif;
-  background-image: url(https://www.vhv.rs/dpng/d/499-4996715_transparent-navy-blue-png-circle-png-download.png);
+  text-shadow: 0 5px black;
 }
 
 .headerWrapper {
-  /* text-align: center; */
-  background-color: rgb(228, 23, 23);
+  text-align: center;
   padding: 1rem;
 }
 
@@ -37,13 +36,53 @@ body {
   font-weight: bold;
   background-color: rgb(255, 136, 0);
   color: navy;
-  padding-left: 1em;
 }
 
 .nav {
-  text-align: right;
+  text-align: center;
   background-color: rgb(255, 251, 0);
-  padding-right: 1rem;
+  font-size: 1vh;
+  font-family: sans-serif;
+}
+
+.home{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.home:hover{ 
+  text-decoration: overline; 
+  background-color: white;
+}
+
+.agaves{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.agaves:hover{ 
+  text-decoration: overline; 
+  background-color: white;
+}
+
+.about{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.about:hover{
+  text-decoration: overline; 
+  background-color: white;
+}
+
+.contact{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.contact:hover{
+  text-decoration: overline; 
+  background-color: white;
 }
 
 img {
