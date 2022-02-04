@@ -6,13 +6,25 @@ body {
   text-align: center;
   font-size: 4vh;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20rem;
 }
+
 .welcome:active { color: #61dafb; }
 
 .welcome:link { color: #111755; }
 
 .welcome:visited { color: #fb9e61; }
+
+.welcomeHead {
+  font-size: 4vh;
+  font-weight: bold;
+  padding: 20rem;
+  text-align: center;
+  color: yellow;
+  font-family: Sans-Serif;
+  background-image: url(https://www.vhv.rs/dpng/d/499-4996715_transparent-navy-blue-png-circle-png-download.png);
+}
 
 .headerWrapper {
   /* text-align: center; */
@@ -90,4 +102,5 @@ img {
   transform: rotateY(180deg);
   font-family: sans-serif;
   font-weight: 300;
+
 }

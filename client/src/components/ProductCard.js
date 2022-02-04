@@ -7,7 +7,7 @@ export default function ProductCard({product}) {
                     <div className="productName">{product.name}<br/></div><br/>
                 </div>
                 <div className="flip-card-back">
-                    <br/>
+                <br/><br/><br/><br/>
                     <div >{product.description}<br/></div><br/>
                 </div>
             </div>
