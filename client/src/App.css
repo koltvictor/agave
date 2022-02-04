@@ -15,12 +15,23 @@ body {
 .welcome:visited { color: #fb9e61; }
 
 .headerWrapper {
-  text-align: center;
+  /* text-align: center; */
+  background-color: rgb(228, 23, 23);
+  padding: 1rem;
+}
+
+.headerTitle {
+  font-size: 3vh;
+  font-weight: bold;
+  background-color: rgb(255, 136, 0);
+  color: navy;
+  padding-left: 1em;
 }
 
 .nav {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  text-align: right;
+  background-color: rgb(255, 251, 0);
+  padding-right: 1rem;
 }
 
 img {

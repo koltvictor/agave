@@ -1,5 +1,4 @@
-export default function ProductCard(product) {
-    console.log(product)
+export default function ProductCard({product}) {
     return(
         <div className="flip-card">
             <div className="flip-card-inner">

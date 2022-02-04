@@ -3,8 +3,6 @@ import ProductCard from './ProductCard';
 
 export default function ProductList({products}) {
 
-    console.log(products);
-
     const product = products.map((product) => {
         return(
             <ProductCard
@@ -12,8 +10,6 @@ export default function ProductList({products}) {
             product={product} />
         )
     })
-
-    console.log(product);
 
     return(
         <div>
