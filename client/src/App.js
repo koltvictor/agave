@@ -1,7 +1,6 @@
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Switch, Route} from 'react-router-dom';
-// import "./App.css"
 
 import Welcome from "./components/Welcome";
 // import Header from "./components/Header";
@@ -11,13 +10,14 @@ import ProductList from "./components/ProductList";
 import Contact from "./components/Contact";
 
 function App() {
-  // const [count, setCount] = useState(0);
 
-  // useEffect(() => {
-  //   fetch("/hello")
-  //     .then((r) => r.json())
-  //     .then((data) => setCount(data.count));
-  // }, []);
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+      fetch("/api/products")
+          .then((r) => r.json())
+          .then((data) => setProducts(data));
+  }, []);
 
   return (
     <Router>
@@ -30,7 +30,8 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/products">
-          <ProductList />
+          <ProductList 
+          products={products}/>
         </Route>
         <Route exact path="/about">
           <About />

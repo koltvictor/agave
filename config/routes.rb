@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  resources :products
-  resources :users
+
 
   namespace :api do
 
+    resources :products
+    resources :users
  
 
   end
