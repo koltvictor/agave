@@ -210,4 +210,30 @@ img {
   text-align: center;
 }
 
+.contactInput {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactButton {
+  background-color: rgb(24, 207, 192);
+  border: transparent;
+  color: white;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.contactButton:active{ 
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
+  transform: translateY(4px);
+}
+
 /* } */
