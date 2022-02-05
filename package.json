@@ -11,6 +11,7 @@
         "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
     },
     "dependencies": {
-        "@emailjs/browser": "^3.4.0"
+        "@emailjs/browser": "^3.4.0",
+        "emailjs-com": "^3.2.0"
     }
 }
