@@ -189,16 +189,14 @@ img {
 }
 
 .contactBack {
+  display: block;
   text-align: center;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contactForm {
   background-color: rgb(24, 155, 207);
   border-radius: 2rem;
-  display: block;
+  display: inline-block;
   text-align: center;
   padding: 2rem;
   max-width: 500px;
