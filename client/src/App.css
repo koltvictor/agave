@@ -10,6 +10,7 @@ body {
   font-size: 4vh;
   font-weight: bold;
   padding-top: 20rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .welcome:active { color: #61dafb; text-shadow: 5px 5px black; }
