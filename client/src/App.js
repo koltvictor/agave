@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Switch, Route} from 'react-router-dom';
 
-import Image1  from './components/agave.png'
+import Image1  from './bwagave.png'
 import Welcome from "./components/Welcome";
 // import Header from "./components/Header";
 import Home from "./components/Home";

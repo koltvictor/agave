@@ -9,13 +9,14 @@ body {
   display: block;
   font-size: 4vh;
   font-weight: bold;
+  padding-top: 20rem;
 }
 
-.welcome:active { color: #61dafb; text-shadow: 0 10px black; }
+.welcome:active { color: #61dafb; text-shadow: 5px 5px black; }
 
-.welcome:link { color: #111755; }
+.welcome:link { color: rgb(0, 255, 234)}
 
-.welcome:visited { color: #e48e55; }
+.welcome:visited { color: rgb(0, 255, 234); }
 
 .welcomeHead {
   font-size: 4vh;
@@ -27,6 +28,12 @@ body {
   text-shadow: 4px 3px rgba(0, 0, 0, 0.4);
 }
 
+.welcomeImg {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+}
 
 .headerWrapper {
   text-align: center;
@@ -63,14 +70,25 @@ a:active{
   text-shadow: 0 10px black;
 }
 
-a:hover{
-  /* text-shadow: 0 2px black; */
-  background-color: rgba(28, 136, 139, 0.5);
-}
-
 a { 
   text-decoration: none; 
   color: black;
+}
+
+.home:hover{
+  background-color: rgba(28, 136, 139, 0.5);
+}
+
+.agaves:hover{ 
+  background-color: rgba(28, 136, 139, 0.5);
+}
+
+.about:hover{ 
+  background-color: rgba(28, 136, 139, 0.5);
+}
+
+.contact:hover { 
+  background-color: rgba(28, 136, 139, 0.5);
 }
 
 .navHeader {
@@ -164,5 +182,9 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
+.headerImage {
+  height: 10%;
+  width: 10%;
+}
 
 /* } */

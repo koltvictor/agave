@@ -1,6 +1,9 @@
+import Image2 from '../bwagave.png'
+
 export default function Header() {
     return(
         <div className="headerWrapper">
+            <img className="headerImage" src={Image2} alt="agave"/>
             <h1 className="headerTitle">Natural Art</h1>
             <div className="nav">
                 <a href="/home" className="home">Home</a>
