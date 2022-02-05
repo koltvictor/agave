@@ -26,7 +26,6 @@ function App() {
         <Welcome 
         Image1 = {Image1}/>
       </Route>
-      {/* <Header /> */}
       <Switch>
         <Route exact path="/home">
           <Home />

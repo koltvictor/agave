@@ -5,7 +5,7 @@ export default function Welcome({Image1}) {
     return(
         <div>
             <h1 className="welcomeHead">WELCOME</h1><br/>
-            <Link to="/home" className="welcome">Enter JKM Gardens</Link>
+            <Link to="/home" className="welcome">Enter JKM Gardens</Link><br/>
             <img src={Image1} />
         </div>
     )
