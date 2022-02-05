@@ -14,7 +14,7 @@ export default function ProductList({products}) {
     return(
         <div>
             <Header />
-            <h1>Agaves For Sale</h1>
+            <h1 className="navHeader">Agaves For Sale</h1>
             <div>
                 {product}
             </div>

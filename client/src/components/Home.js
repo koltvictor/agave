@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1 className="navHeader">HELLO and WELCOME!</h1>
-      <p>So how does this work?</p>
+      <br/>
+      <h1 className="navHeader">Hello & Welcome</h1>
+      <h3 className="navHeader">to our gardens of Agave americanas!</h3>
     </div>
   );
 }

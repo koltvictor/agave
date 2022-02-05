@@ -64,7 +64,7 @@ a:active{
 }
 
 a:hover{
-  text-shadow: 0 2px black;
+  /* text-shadow: 0 2px black; */
   background-color: rgba(28, 136, 139, 0.5);
 }
 
@@ -80,7 +80,7 @@ a {
 
 .home{
   padding-right: 2rem;
-  padding-left: 2rem;
+  padding-left: 5rem;
 }
 
 .agaves{
