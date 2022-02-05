@@ -1,5 +1,6 @@
 import Header from './Header';
 import emailjs from "emailjs-com";
+import Image3 from '../agavedrawing.png'
 
 export default function Contact () {
     function sendEmail(e) {
@@ -25,8 +26,8 @@ export default function Contact () {
                 <input className="contactInput" type="text" name="subject" placeholder="Subject" required/><br/><br/>
                 <textarea  className="contactInput" name="html_message"placeholder="Message" required/><br/><br/><br/><br/><br/><br/>
                 <input type="submit" value="Send" className="contactButton"/>
-            </form>
-            {/* <img src="https://knowyourbenefits.dfa.ms.gov/media/3540/contact-us.jpg" alt="contact" className="contactImg"/> */}
+            </form><br/>
+            <img src={Image3} alt="contact" className="contactImg"/>
         </div>
         </div>
     )

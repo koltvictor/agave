@@ -236,4 +236,9 @@ img {
   transform: translateY(4px);
 }
 
+.contactImg{
+  width: 25%;
+  height: 25%;
+}
+
 /* } */
