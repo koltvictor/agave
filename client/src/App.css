@@ -129,6 +129,8 @@ img {
   height: 200px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   display: inline-block;
+  margin-right: 1vh;
+  margin-left: 1vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
   padding: 2rem;
@@ -191,10 +193,12 @@ img {
 .contactBack {
   display: block;
   text-align: center;
+
 }
 
 .contactForm {
   background-color: rgb(24, 155, 207);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   border-radius: 2rem;
   display: inline-block;
   text-align: center;

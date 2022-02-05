@@ -8,7 +8,7 @@ export default function Header() {
             <div className="nav">
                 <a href="/home" className="home">Home</a>
                 <a href="/products" className="agaves">Agaves</a>
-                <a href="/about" className="about">About</a>
+                <a href="/about" className="about">Gallery</a>
                 <a href="/contact" className="contact">Contact</a>
             </div>
         </div>

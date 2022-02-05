@@ -18,7 +18,7 @@ export default function Contact () {
             <h1 className="navHeader">Contact Form</h1>
             <div className="contactBack">
             <form className="contactForm" onSubmit={sendEmail}>
-                <p className="contactP">Email us to schedule a time to view our gardens, or with any questions or inquiries & we will be happy to answer your questions and get back to you ASAP. <br/> Please keep in mind, we're a small business! </p><br/>
+                <p className="contactP">Email us to schedule a time to view our gardens, or with any questions or inquiries & we will be happy to answer your questions and get back to you ASAP.</p><br/>
                 <input className="contactInput" type="hidden" name="contact_number" /><br/>
                 <input className="contactInput" type="text" name="from_name" placeholder="Your name" required/><br/>   
                 <input className="contactInput" type="email" name="from_email" placeholder="Email address" required/><br/>
