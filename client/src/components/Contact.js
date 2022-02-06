@@ -21,8 +21,8 @@ export default function Contact () {
             <form className="contactForm" onSubmit={sendEmail}>
                 <p className="contactP">Email us to schedule a time to view our gardens, or with any questions or inquiries & we will be happy to answer your questions and get back to you ASAP.</p><br/>
                 <input className="contactInput" type="hidden" name="contact_number" /><br/>
-                <input className="contactInput" type="text" name="from_name" placeholder="Your name" required/><br/>   
-                <input className="contactInput" type="email" name="from_email" placeholder="Email address" required/><br/>
+                <input className="contactInput" type="text" name="from_name" placeholder="Name" required/><br/>   
+                <input className="contactInput" type="email" name="from_email" placeholder="Email" required/><br/>
                 <input className="contactInput" type="text" name="subject" placeholder="Subject" required/><br/><br/>
                 <textarea  className="contactInput" name="html_message"placeholder="Message" required/><br/><br/><br/><br/><br/><br/>
                 <input type="submit" value="Send" className="contactButton"/>
