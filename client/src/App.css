@@ -83,8 +83,8 @@ body {
 }
 
 .welcomeImg {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   display: block;
   margin-left: 25%;
   padding-top: 4vh;
@@ -180,15 +180,15 @@ img {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   display: inline-block;
   margin-right: 1vh;
   margin-left: 1vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  padding: 2rem;
+  grid-gap: 1rem;
+  padding: 1rem;
 }
 
 /* This container is needed to position the front and back side */
