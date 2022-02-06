@@ -11,7 +11,7 @@ body {
   font-weight: bold;
   /* padding-top: 20rem; */
   text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -24,7 +24,7 @@ body {
 
 .welcome::before {
   content: 'Natural Art Gardens';
-  position: absolute;
+  position: fixed;
   color: transparent;
   background-image: repeating-linear-gradient(
     45deg,
@@ -42,7 +42,6 @@ body {
 
 .welcome::after{
   content: "Natural Art Gardens";
-  position: absolute;
   color: transparent;
   background-image: repeating-linear-gradient(
     135deg,
@@ -88,6 +87,7 @@ body {
   width: 50%;
   display: block;
   margin-left: 25%;
+  padding-top: 4vh;
 }
 
 .headerWrapper {
